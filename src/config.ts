@@ -8,9 +8,9 @@ import BG_LAYER_4 from 'assets/images/bg4.png';
 
 export const BACKGROUNDS = [
   { imageSrc: BG_LAYER_1, speed: 30, zIndex: 0 },
-  { imageSrc: BG_LAYER_2, speed: 40, zIndex: 0 },
-  { imageSrc: BG_LAYER_3, speed: 70, zIndex: 0 },
-  { imageSrc: BG_LAYER_4, speed: 90, zIndex: 0 },
+  { imageSrc: BG_LAYER_2, speed: 40, zIndex: 1 },
+  { imageSrc: BG_LAYER_3, speed: 70, zIndex: 2 },
+  { imageSrc: BG_LAYER_4, speed: 90, zIndex: 3 },
 ];
 
 export const INITIAL_GAME_STATE: IGameState = {
